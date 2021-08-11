@@ -1,0 +1,12 @@
+[ririen@oad NervosDAPP]$ node deploy
+Using Ethereum address: 0x5c5D5351aFAf7CdF5c2E7A826846e594B755d05b
+Deploying contract...
+Transaction hash: 0xf7ae1bb6df9e7abe3fed360df7235c02bed17d43a4041ffdc980d4ee8a4da859
+Deployed SUDT-ERC20 Proxy contract address: 0xcda6d0D3C61a1d67CC502ffdbC20ad6Ec4cdE3B1
+
+
+[ririen@oad NervosDAPP]$ node deploy-fancy
+Using Ethereum address: 0x5c5D5351aFAf7CdF5c2E7A826846e594B755d05b
+Deploying contract...
+Transaction hash: 0xa13e4a5a6ec5d6a0cd03416d5c73956f5152cc6ff4d3e63366330c4129eb01de
+Deployed Fancy-Names contract address: 0xFB5E7347bA0da2d7471E41FAE2308f3eeDE91288
