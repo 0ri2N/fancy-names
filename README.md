@@ -1,4 +1,28 @@
-# NervosDAPP
+# Fancy Names
+
+## ENV Setup
+
+Replace the .env.example file with .env and change the data if necessary.
+
+By default, all data is filled in correctly and the private key is empty. Complementing the private key is only necessary for new deploy contracts.
+
+**__When re-deploying contracts and changing them, remember to also change the relevant environment variables in the .env file!__**
+
+## Contracts
+
+The history of deploy contracts used in this dapp can be found in the: `contract.deploy.txt`.
+
+```bash
+# compile contracts
+$ yarn compile
+
+# deploy SUDT-ERC20 proxy contract
+$ node deploy
+
+# deploy Fancy-Names contract
+$ node deploy-fancy
+```
+
 
 ## Build Setup
 
@@ -12,9 +36,6 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
